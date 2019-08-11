@@ -1,0 +1,49 @@
+nav li{
+	display: inline;
+	margin-right: 35px;
+}
+
+img{
+	width: 225px;
+	height: 225px;
+	border-radius: 50%;
+	float: left;
+	padding: 10px;
+	padding-right: 40px;
+}
+
+.box{
+	width: 850px;
+	height: 250px;
+	padding: 15px;
+	background-color: white;
+	margin: 50px;
+	border-radius: 35px;
+	box-shadow: -20px 20px 50px gray;
+	font-size: 30px;
+	font-family: Product Sans Black;	
+}
+
+body{
+	background-color: #66A6FF;
+}
+
+nav li{
+	display: inline;
+	margin-right: 25px;
+}
+
+#box{
+	width: 1150px;
+	height: 37px;
+	background-color: white;
+	border-radius: 90px;
+	font-size: 23px;
+}
+
+.judul{
+	font-family: Cera Pro;
+	color: white;
+}
+
+
