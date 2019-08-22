@@ -19,14 +19,18 @@
 
 			<?php
 			$nama_bagas = "Bagas Prasetio";
+			$ttl_bagas = "Tangerang, 17 April 2003";
 			$umur_bagas = 16;
 			$tinggi_bagas = 164;
 
+
 			$nama_tasya = "Natasya Aprilia Ananda";
+			$ttl_tasya = 'Bogor, 19 April 2003';
 			$umur_tasya = 16;
 			$tinggi_tasya = 156;
 
-			$nama_fhirli ="Siti Fhirli Handayani";
+			$nama_fhirli = "Siti Fhirli Handayani";
+			$ttl_fhirli = 'Sumedang, 22 September 2003';
 			$umur_fhirli = 15;
 			$tinggi_fhirli = 155;
 
@@ -38,6 +42,7 @@
 				<br>
 				<?php
 				echo "$nama_bagas <br> <br>";
+				echo "Tempat Tanggal Lahir: $ttl_bagas <br>";
 				echo "Umur : $umur_bagas Tahun <br>";
 				echo "Tinggi : $tinggi_bagas CM <br>";
 				?>
@@ -48,6 +53,7 @@
 				<?php
 				echo "<br>";
 				echo "$nama_tasya <br> <br>";
+				echo "Tempat Tanggal Lahir: $ttl_tasya <br>";
 				echo "Umur : $umur_tasya Tahun <br>";
 				echo "Tinggi : $tinggi_tasya CM <br>";
 				?>
@@ -58,15 +64,16 @@
 				<?php
 				echo "<br>";
 				echo "$nama_fhirli <br> <br>";
+				echo "Tempat Tanggal Lahir : $ttl_fhirli <br>";
 				echo "Umur : $umur_fhirli Tahun <br>";
 				echo "Tinggi : $tinggi_fhirli CM <br>";
 				?>
 			</div>
 			
 			<div id="box">
-				<?php
-				echo "Rata - Rata Tinggi Kami Adalah : $rata_rata";
-				?>
+				<p>
+				Rata - Rata Tinggi Kami Adalah = <?php echo printf("%.2f", $rata_rata)?>
+			</p>
 			</div>
 
 </header>
