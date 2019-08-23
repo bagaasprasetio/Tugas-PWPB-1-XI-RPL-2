@@ -13,24 +13,24 @@
 				<ul>
 					<li><a href="index.php">Beranda</a></li>
 					<li><a href="anggota.php">Anggota</a></li>
+					<li><a href="rumus.php">Rumus</a></li>
 				</ul>
 			</nav>
 		</div>
 
 			<?php
 			$nama_bagas = "Bagas Prasetio";
-			$ttl_bagas = "Tangerang, 17 April 2003";
+			$ttl_bagas = "Tanggerang, 17 April 2003";
 			$umur_bagas = 16;
 			$tinggi_bagas = 164;
 
-
 			$nama_tasya = "Natasya Aprilia Ananda";
-			$ttl_tasya = 'Bogor, 19 April 2003';
+			$ttl_tasya = "Bogor, 19 April 2003";
 			$umur_tasya = 16;
 			$tinggi_tasya = 156;
 
-			$nama_fhirli = "Siti Fhirli Handayani";
-			$ttl_fhirli = 'Sumedang, 22 September 2003';
+			$nama_fhirli ="Siti Fhirli Handayani";
+			$ttl_fhirli = "Sumedang, 22 September 2003";
 			$umur_fhirli = 15;
 			$tinggi_fhirli = 155;
 
@@ -39,10 +39,9 @@
 
 			<div class="box">
 				<img src="bagas.png">
-				<br>
 				<?php
 				echo "$nama_bagas <br> <br>";
-				echo "Tempat Tanggal Lahir: $ttl_bagas <br>";
+				echo "Tempat Tanggal Lahir : $ttl_bagas <br>";
 				echo "Umur : $umur_bagas Tahun <br>";
 				echo "Tinggi : $tinggi_bagas CM <br>";
 				?>
@@ -51,9 +50,8 @@
 			<div class="box">
 			<img src="tahel.png">
 				<?php
-				echo "<br>";
 				echo "$nama_tasya <br> <br>";
-				echo "Tempat Tanggal Lahir: $ttl_tasya <br>";
+				echo "Tempat Tanggal Lahir : $ttl_tasya <br>";
 				echo "Umur : $umur_tasya Tahun <br>";
 				echo "Tinggi : $tinggi_tasya CM <br>";
 				?>
@@ -62,7 +60,6 @@
 			<div class="box">
 			<img src="ily.png">
 				<?php
-				echo "<br>";
 				echo "$nama_fhirli <br> <br>";
 				echo "Tempat Tanggal Lahir : $ttl_fhirli <br>";
 				echo "Umur : $umur_fhirli Tahun <br>";
@@ -72,8 +69,8 @@
 			
 			<div id="box">
 				<p>
-				Rata - Rata Tinggi Kami Adalah = <?php echo printf("%.2f", $rata_rata)?>
-			</p>
+					Rata - Rata Tinggi Kami Adalah = <?php echo printf("%.2f", $rata_rata) ?>
+				</p>
 			</div>
 
 </header>

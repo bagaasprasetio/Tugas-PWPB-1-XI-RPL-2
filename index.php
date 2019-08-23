@@ -13,6 +13,7 @@
 				<ul>
 					<li><a href="index.php">Beranda</a></li>
 					<li><a href="anggota.php">Anggota</a></li>
+					<li><a href="rumus.php">Rumus</a></li>
 				</ul>
 			</nav>
 			<br>
