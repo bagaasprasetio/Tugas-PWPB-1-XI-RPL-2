@@ -24,32 +24,32 @@
 			$nama_bangunan1 = "Kubus";
 			$rumus_luas_kubus = "6 x (sisi x sisi)";
 			$rumus_keliling_kubus = "Rusuk x Rusuk x Rusuk";
-			$gambar = "img/cube.gif";
+			$gambar = "cube.gif";
 
 			$nama_bangunan2 = "Bola";
 			$rumus_luas_bola = "4 x π x r2";
 			$rumus_volume_bola = "4/3 x π x r3";
-			$gambar2 = "img/balls.gif";
+			$gambar2 = "balls.gif";
 
 			$nama_bangunan3 = "Tabung";
 			$rumus_luas_tabung ="(2 x π x r x r) + (π x d x t)";
 			$rumus_volume_tabung ="π x r x r x t";
-			$gambar3 = "img/tabung.gif";
+			$gambar3 = "tabung.gif";
 
 			$nama_bangunan4 = "Kerucut";
 			$rumus_luas_kerucut = "(π x r2) + (π x r x s)";
 			$rumus_volume_kerucut = "1/3 x π x r2 x t";
-			$gambar4 = "img/kerucut.gif";
+			$gambar4 = "kerucut.gif";
 
 			$nama_bangunan5 = "Limas Segitiga";
 			$rumus_luas_limassegitiga = "Luas alas + Luas selubung limas";
 			$rumus_volume_limassegitiga = "1/3 x Luas alas x Tinggi";
-			$gambar5 = "img/limassegitiga.gif";
+			$gambar5 = "limassegitiga.gif";
 
 			$nama_bangunan6 = "Limas Segiempat";
 			$rumus_luas_limassegiempat = "Luas alas + Luas selubung limas";
 			$rumus_volume_limassegiempat = "1/3 x Luas alas x Tinggi";
-			$gambar6 = "img/limassegiempat.gif";
+			$gambar6 = "limassegiempat.gif";
 			?>
 			
 			<center>
