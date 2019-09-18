@@ -2,32 +2,34 @@
 <html>
 <head>
 	<title>Tugas PWPB</title>
-	<link rel="stylesheet" type="text/css" href="style2.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 		<header>
-			<h1 class="judul">Pemrograman Web Dan Perangkat Bergerak</h1>
+			<div id="box4">
+			<h1 class="judul"><center>Pemrograman Web Dan Perangkat Bergerak</center></h1>
 			<center>
-				<div id="box">
-			<nav>
+				<nav>
 				<ul>
-					<li><a href="index.php">Beranda</a></li>
+					<li><a href="index.php" >Beranda</a></li>
 					<li><a href="anggota.php">Anggota</a></li>
-					<li><a href="rumus.php">Rumus</a></li>
+					<li><a href="rumus.php" class="current">Rumus</a></li>
+					<li><a href="form.php">Formulir</a></li>
 				</ul>
 			</nav>
 		</div>
+	</center>
 
 			<?php
 			$nama_bangunan1 = "Kubus";
 			$rumus_luas_kubus = "6 x (sisi x sisi)";
 			$rumus_keliling_kubus = "Rusuk x Rusuk x Rusuk";
-			$gambar = "img/kubus.gif";
+			$gambar = "img/cube.gif";
 
 			$nama_bangunan2 = "Bola";
 			$rumus_luas_bola = "4 x π x r2";
 			$rumus_volume_bola = "4/3 x π x r3";
-			$gambar2 = "img/bola.gif";
+			$gambar2 = "img/balls.gif";
 
 			$nama_bangunan3 = "Tabung";
 			$rumus_luas_tabung ="(2 x π x r x r) + (π x d x t)";
@@ -49,8 +51,9 @@
 			$rumus_volume_limassegiempat = "1/3 x Luas alas x Tinggi";
 			$gambar6 = "img/limassegiempat.gif";
 			?>
-
-			<div class="box">
+			
+			<center>
+			<div id="box3">
 				<img class="bangun" src="<?= $gambar ?>">
 				<br>
 				<?php
@@ -60,7 +63,7 @@
 				?>
 			</div>
 
-			<div class="box">
+			<div id="box9">
 			<img class="bangun" src="<?= $gambar2 ?>">
 			<br>
 				<?php
@@ -70,7 +73,7 @@
 				?>
 			</div>
 			
-			<div class="box">
+			<div id="box10">
 			<img class="bangun" src="<?= $gambar3 ?>">
 			<br>
 				<?php
@@ -80,7 +83,7 @@
 				?>
 			</div>
 			
-			<div class="box">
+			<div id="box10">
 			<img class="bangun" src="<?= $gambar4 ?>">
 			<br>
 				<?php
@@ -90,7 +93,7 @@
 				?>
 			</div>
 
-			<div class="box">
+			<div id="box10">
 			<img class="bangun" src="<?= $gambar5 ?>">
 			<br>
 				<?php
@@ -100,7 +103,7 @@
 				?>
 			</div>
 
-			<div class="box">
+			<div id="box10">
 			<img class="bangun" src="<?= $gambar6 ?>">
 			<br>
 				<?php
@@ -113,4 +116,8 @@
 </header>
 </center>
 </body>
+<footer>
+	<br>
+	<p>2019 Made with Kelompok 3 ❤❤</p>
+</footer>
 </html>

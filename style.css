@@ -1,0 +1,181 @@
+/* CSS HALAMAN INDEX */
+#box1{
+	width: 1150px;
+	height: 850px;
+	background-color: white;
+	border-radius: 30px;
+	padding: 10px;
+	box-shadow: -2px 20px 30px gray;
+}
+nav li{
+	display: inline;
+	margin-right: 40px;
+	font-size: 25px;
+}
+body{
+	background-color: #FFFFFF;
+}
+.judul{
+	font-family: Product Sans Black;
+	color: #000000;
+	font-size: 30pt;
+	padding-bottom: 5pt;
+}
+img{
+	width: 800px;
+	height: 490px;
+	border-radius: 19px;
+}
+h1{
+	font-family: Segoe UI;
+}
+p{
+	font-size: 22px;
+	font-family: Product Sans Black;
+}
+.akhir{
+	font-size: 22px;
+}
+nav li a{
+	font-family: Product Sans;
+	color: gray;
+}
+.current{
+	color: #01875F;
+	font-family: Product Sans Black;
+}
+#box4{
+	box-shadow: 0px 1px 0px gray;
+}
+
+/*CSS HALAMAN ANGGOTA*/
+.biodata{
+	width: 225px;
+	height: 225px;
+	border-radius: 50%;
+	padding-top: 10px;
+	padding-left: 37px;
+	padding-right: 60px;
+}
+#box6{
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(circle at top left, #88F7FE, #66A6FF);
+	border-radius: 30px;
+	box-shadow: -2px 15px 27px #75C7FF;
+	max-width: 299px;
+	font-family: Product Sans Black;
+	font-size: 18px;
+	display: inline-block;
+	color: white;
+	margin-left: 45px;
+}
+#box7{
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(circle at top left, #F095FF, #F64848);
+	border-radius: 30px;
+	box-shadow: -2px 12px 24px #F5648B;
+	max-width: 299px;
+	font-family: Product Sans Black;
+	font-size: 18px;
+	display: inline-block;
+	color: white;
+	margin-left: 45px;
+}
+#box8{
+	width: 400px;
+	height: 400px;
+	background: radial-gradient(circle at top left, #91E4A3, #DBFE74);
+	border-radius: 30px;
+	box-shadow: -2px 12px 24px #ADEE92;
+	max-width: 299px;
+	font-family: Product Sans Black;
+	font-size: 18px;
+	display: inline-block;
+	color: white;
+	margin-left: 45px;
+}
+
+/* CSS HALAMAN RUMUS*/
+.bangun{
+	width: 225px;
+	height: 230px;
+	float: left;
+	padding: 10px;
+	padding-right: 40px;
+}
+.atas{
+	width: 225px;
+	height: 225px;
+	float: center;
+}
+#box3{
+	width: 760px;
+	height: 250px;
+	padding: 15px;
+	background-color: #FF9600;
+	margin: 50px;
+	border-radius: 15px;
+	box-shadow: -2px 5px 15px gray;
+	font-size: 30px;
+	font-family: Product Sans Black;
+	float: auto;	
+}
+#box9{
+	width: 760px;
+	height: 250px;
+	padding: 15px;
+	background-color: #F3E2CC;
+	margin: 50px;
+	border-radius: 15px;
+	box-shadow: -2px 5px 15px gray;
+	font-size: 30px;
+	font-family: Product Sans Black;
+	float: auto;	
+}
+#box10{
+	width: 760px;
+	height: 250px;
+	padding: 15px;
+	background-color: white;
+	margin: 50px;
+	border-radius: 15px;
+	box-shadow: -2px 5px 15px gray;
+	font-size: 30px;
+	font-family: Product Sans Black;
+	float: auto;	
+}
+
+/* CSS HALAMAN FORM */
+#box2{
+	width: 900px;
+	height: 1900px;
+	background: radial-gradient(circle at top left, #F095FF, #F64848);
+	border-radius: 20px;
+	padding: 10px;
+	box-shadow: -2px 20px 30px #F5648B;
+	font-family: Product Sans Black;
+	color: white;
+	font-size: 15pt;
+}
+hr{
+	color: white;
+}
+#tombol{
+	background-color: white;
+	size: 20px;
+	font-size: 15pt;
+	font-family: Product Sans Black;
+	border-radius: 10px;
+}
+.box{
+	width: 700px;
+	height: 700px;
+	background: radial-gradient(circle at top left, #FCC98A, #D57DEB);
+	border-radius: 20px;
+	padding: 15px;
+	font-family: Product Sans Black;
+	color: white;
+	font-size: 14pt;
+}

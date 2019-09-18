@@ -2,30 +2,42 @@
 <html>
 <head>
 	<title>Tugas PWPB</title>
-	<link rel="stylesheet" type="text/css" href="style1.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 		<header>
-			<h1 class="judul">Pemrograman Web Dan Perangkat Bergerak</h1>
+			<div id="box4">
+			<h1 class="judul"><center>Pemrograman Web Dan Perangkat Bergerak</center></h1>
 			<center>
-		<div class="box">	
-			<nav>
+				<nav>
 				<ul>
-					<li><a href="index.php">Beranda</a></li>
+					<li><a href="index.php" class="current">Beranda</a></li>
 					<li><a href="anggota.php">Anggota</a></li>
 					<li><a href="rumus.php">Rumus</a></li>
+					<li><a href="form.php">Formulir</a></li>
 				</ul>
 			</nav>
+		</div>
+	</center>
+	<center>
 			<br>
-			<img src="home2.jpg">
+			<br>
+		<div id="box1">	
+			<br>
+			<br>
+			<img src="home2.gif">
 			<br>
 			<br>
 		<h1>Selamat Datang Di Website Kami!😁</h1>
-		<p>Halo! Kami dari Kelas XI RPL 2. Di tugas pertama ini, kami ingin memperkenalkan masing - masing dari kami.</p>
+		<p>Halo! Kami dari Kelas XI RPL 2. Ini adalah tugas website kami.</p>
 		<br>
 		<p class="akhir">Have A Nice Day Everyone!❤</p>
 	</div>
 	</header>	
 </center>
 </body>
+<footer>
+	<br>
+	<p>2019 Made with Kelompok 3 ❤❤</p>
+</footer>
 </html>
